@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Default Gems
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.0.0'
 gem 'sass-rails', '~> 4.0.0' # SASS for Asset Pipeline
 gem 'uglifier', '>= 1.3.0' # Javascript compressor
 gem 'coffee-rails', '~> 4.0.0' # Use coffeescript
