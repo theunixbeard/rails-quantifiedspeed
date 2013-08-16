@@ -16,6 +16,10 @@
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <!-- Segment.io -->
+    <!-- TODO: need to add identify/track js https://segment.io/docs/methods/identify  -->
+    <!-- TODO: Also need to use 'analytics-ruby' gem https://segment.io/libraries/ruby -->
+    <%= render 'layouts/tracking' %>
   </head>
 
   <body>
